@@ -163,7 +163,7 @@ public class CodeUnitFormat {
 			}
 		}
 		stringBuffer.append(mnemonic);
-		return stringBuffer.toString();
+		return stringBuffer.toString().toLowerCase();
 	}
 
 	/**
